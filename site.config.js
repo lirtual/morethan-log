@@ -2,9 +2,9 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "lirtual",
-    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    image: "https://notion-avatar.vercel.app/api/img/eyJmYWNlIjo4LCJub3NlIjoxMywibW91dGgiOjIsImV5ZXMiOjgsImV5ZWJyb3dzIjowLCJnbGFzc2VzIjowLCJoYWlyIjo1LCJhY2Nlc3NvcmllcyI6MCwiZGV0YWlscyI6MCwiYmVhcmQiOjAsImZsaXAiOjAsImNvbG9yIjoicmdiYSgyNTUsIDAsIDAsIDApIiwic2hhcGUiOiJub25lIn0=", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Back-end developer",
-    bio: "Fly me to the moon",
+    bio: "Big things start small",
     email: "lirtual@outlook.com",
     linkedin: "",
     github: "lirtual",
@@ -12,8 +12,16 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `morethan-log`,
-      href: "https://github.com/lirtual/morethan-log",
+      name: `Virtual mailbox`,
+      href: "https://vmail.lirtual.cloudns.org",
+    },
+    {
+      name: `Image hosting`,
+      href: "https://img.lirtual.cloudns.org",
+    },
+    {
+      name: `Development Tools`,
+      href: "https://tools.lirtual.cloudns.org/",
     },
   ],
   // blog setting (required)
@@ -61,10 +69,10 @@ const CONFIG = {
     },
   },
   cusdis: {
-    enable: false,
+    enable: true,
     config: {
       host: "https://cusdis.com",
-      appid: "", // Embed Code -> data-app-id value
+      appid: "7db199c5-8b34-4640-bb55-0241d645a659", // Embed Code -> data-app-id value
     },
   },
   isProd: process.env.VERCEL_ENV === "production", // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
