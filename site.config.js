@@ -2,7 +2,7 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "lirtual",
-    image: "https://notion-avatar.vercel.app/api/img/eyJmYWNlIjo4LCJub3NlIjoxMywibW91dGgiOjIsImV5ZXMiOjgsImV5ZWJyb3dzIjowLCJnbGFzc2VzIjowLCJoYWlyIjo1LCJhY2Nlc3NvcmllcyI6MCwiZGV0YWlscyI6MCwiYmVhcmQiOjAsImZsaXAiOjAsImNvbG9yIjoicmdiYSgyNTUsIDAsIDAsIDApIiwic2hhcGUiOiJub25lIn0=", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Back-end developer",
     bio: "Big things start small",
     email: "lirtual@outlook.com",
@@ -12,16 +12,16 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `Virtual mailbox`,
+      name: `Development Tools`,
+      href: "https://tools.lirtual.cloudns.org/",
+    },
+    {
+      name: `Virtual Mailbox`,
       href: "https://vmail.lirtual.cloudns.org",
     },
     {
-      name: `Image hosting`,
+      name: `Image Hosting`,
       href: "https://img.lirtual.cloudns.org",
-    },
-    {
-      name: `Development Tools`,
-      href: "https://tools.lirtual.cloudns.org/",
     },
   ],
   // blog setting (required)
